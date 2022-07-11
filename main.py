@@ -17,18 +17,8 @@ while accepted == False:
     if colors.count(user_bet) == 1:
         accepted = True
 
-
-#names = ["alpha", "bravo", "charlie", "delta", "echo", "foxtrot"]
-#for turtle_index in range(0,6):
-#     name = names[turtle_index]
-#     name = Turtle(shape ="turtle")
-#     name.color(colors[turtle_index])
-#     name.penup()
-#     y_pos = -70 + (30 * turtle_index)
-#     name.goto(x=-230, y = y_pos)
-#charlie.color("black")
-
-
+        
+        
 # Create the Racers
 all_turtles = []
 for turtle_index in range(0,6):
@@ -67,7 +57,9 @@ referee.setheading(90)
 
 
 
-
+#
+#
+#
 # Run the race
 winning_turtle = []
 if excitement == 3:
